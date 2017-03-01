@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "This is for myblog and study gulp project",
   "author": "gewuen",
-  "repository":{
-  	"type":"git"
+  "repository": {
+    "type": "git"
   },
   "license": "ISC",
   "devDependencies": {
