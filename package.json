@@ -1,10 +1,14 @@
 {
-	"name":"gewuen",
-	"version":"1.0.0",
-	"description":"This is for myblog and study gulp project",
-	"author":"gewuen",
-	"devDependencies":{
-		"gulp": "^3.9.1",
-		"gulp-less": "^3.0.3"
-	}
+  "name": "gewuen",
+  "version": "1.0.0",
+  "description": "This is for myblog and study gulp project",
+  "author": "gewuen",
+  "repository":{
+  	"type":"git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  }
 }
