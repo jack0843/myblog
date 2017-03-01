@@ -6,8 +6,8 @@ var gulp = require('gulp'),
 	imageMin = require('gulp-imagemin'),
 	cache = require('gulp-cache'),
 	htmlMin = require('gulp-htmlmin'),
-	//webpack = require('webpack'),
-	gulpWebpack = require('gulp-webpack');
+	gulpWebpack = require('gulp-webpack'),
+	watch = require('gulp-watch');
 	
 var config = {
 	lessMain:[
@@ -26,7 +26,6 @@ var config = {
 		'./src/html/**/*.html'
 	]
 }
-
 
 
 gulp.task('testAutoprefixer',function(){
